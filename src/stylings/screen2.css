@@ -1,0 +1,55 @@
+.movie-name{
+    text-align: center;
+    font-size: 30px;
+    
+    font-weight: 900;
+    font-family: sans-serif ;
+    color: #07398a;
+}
+.bottomnav-holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+   
+    
+}
+.screen2-image-container{
+    margin-top: 50px;
+   
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 80px;
+}
+.screen2-adjcent{
+    width: 40%;
+    /* height: 40%; */
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.screen2-schedule{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+.description-container{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.description-inner{
+    
+    margin-top: 30px;
+    width: 80%;
+    font-size: 25px;
+    font-family: monospace;
+}
