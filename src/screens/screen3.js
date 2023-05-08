@@ -27,8 +27,7 @@ export default function Screen3(){
         )
         navigate('/')
     }
-   
-    
+
 
     return(
         <div>
@@ -37,7 +36,7 @@ export default function Screen3(){
             <div  className="screen3-bottomnav">
                 <Tooltip title='navigate up'>
                 
-                <Button onClick={()=>navigate('/')} style={{backgroundColor:'red',color:'white'}}>Back</Button>
+                <Button onClick={()=>navigate('/movie-details')} style={{backgroundColor:'red',color:'white'}}>Back</Button>
                 </Tooltip>
                 
                 <div style={{display:'flex',gap:'5px'}}>

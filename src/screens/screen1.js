@@ -18,7 +18,8 @@ export default function Screen1(){
         
     },[])
     const navigatebutton=(l)=>{
-        navigate('/movie-details',{state:l})
+        navigate('/movie-details',{state:l});
+        localStorage.setItem("data", JSON.stringify(l));
     }
     return(
         <div className="main-container">
